@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
+
+header {
+	height: 200px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+
+}
+
+.btn {
+	width: 92px;
+	height: 65px;
+	margin: 5px;
+}
+
+.b_usa {
+	background-image: url("../images/nations/Wows_flag_USA.png");
+}
+
+.b_jap {
+	background-image: url("../images/nations/Wows_flag_Japan.png");
+}
+
+.b_ussr {
+	background-image: url("../images/nations/Wows_flag_Russian_Empire_and_USSR.png");
+}
+
+.b_ger {
+	background-image: url("../images/nations/Wows_flag_Germany.png");
+}
+
+.b_uk {
+	background-image: url("../images/nations/Wows_flag_UK.png");
+}
+
+.b_fra {
+	background-image: url("../images/nations/Wows_flag_France.png");
+}
+
+.b_ita {
+	background-image: url("../images/nations/Wows_flag_Italy.png");
+}
+
+.b_panasia {
+	background-image: url("../images/nations/Wows_flag_Pan_Asia.png");
+}
+
+.b_panam {
+	background-image: url("../images/nations/Wows_flag_Pan_America.png");
+}
+
+.b_common {
+	background-image: url("../images/nations/Wows_flag_Commonwealth.PNG");
+}
+
+.b_pol {
+	background-image: url("../images/nations/Wows_flag_Poland.png");
+}
+
+.col {
+	width: 33.33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.logo h1 {
+display: inline-block;
+text-align: right;
+font-family: 'IM Fell English SC', serif;
+font-size: 40px;
+}
+
+.nations {
+	text-align: center;
+	font-size: 24px;
+}
+
+#usa, #japan {
+	margin: 20px;
+	text-align: center;
+	font-size: 24px;
+	display: none;
+}
+
+main img {
+	width: 171px;
+	height: 101px;
+}
+
+main p {
+	display: inline-block;
+	margin-top: 2em;
+}
+
+footer {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+footer p {
+		text-align: center;
+		margin: 0 auto;
+}

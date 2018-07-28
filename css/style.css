@@ -3,6 +3,11 @@
 }
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 
+body {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+}
+
 header {
 	height: 200px;
 }
@@ -11,6 +16,8 @@ header {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
+	background-color: white;
+	border-radius: 25px;
 }
 
 .row:before,
@@ -79,6 +86,7 @@ header {
 	float: left;
 	margin: 0;
 	padding: 0;
+	background-color: white;
 }
 
 .logo h1 {
@@ -98,6 +106,15 @@ font-size: 40px;
 	text-align: center;
 	font-size: 24px;
 	display: none;
+	background-color: white;
+}
+
+#ussr>.col, #italy>.col, #panasia>.col, #common>.col {
+	width: 50%;
+}
+
+#panam>.col, #poland>.col {
+	width: 100%;
 }
 
 main img {

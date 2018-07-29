@@ -132,3 +132,27 @@ p {
 		text-align: center;
 		margin: 0;
 }
+
+@media(max-width: 767px) {
+	
+	.logo {
+		display: inline;
+	}
+	
+	.logo img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.logo h1 {
+		font-size: 18px;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+	.ships img {
+		width: 150px;
+		height: 88px;
+	}
+}

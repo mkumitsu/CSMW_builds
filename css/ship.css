@@ -46,7 +46,8 @@ p {
 }
 
 .col {
-	text-align: center;	
+	text-align: center;
+	padding: 0;
 }
 
 .col p {
@@ -66,4 +67,22 @@ p {
 
 .copyright {
 	text-align: center;
+}
+
+@media(max-width: 767px) {
+	.perks img {
+		width: 35px;
+		height: 35px;
+	}
+	li {
+		font-size: 0.8em;
+	}
+	.b-return {
+		font-size: 1em;
+	}
+	.col-md-auto {
+		
+		text-align: center;
+		border: 1px solid black;
+	}
 }

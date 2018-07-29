@@ -1,0 +1,11 @@
+#montana-1>.row>.p-1-2, .p-2-7, .p-3-1, .p-4-2, .p-4-8, .p-2-1, .p-3-6 {
+	border: 1px solid red;
+}
+
+#montana-2>.row>.r-1-2, .r-2-7, .r-3-5, .r-4-5, .r-4-6, .r-2-2, .r-1-5, .r-2-1 {
+	border: 1px solid red;
+}
+
+#montana-3>.row>.s-1-2, .s-2-2, .s-2-7, .s-3-5, .s-3-1, .s-4-2, .s-4-5 {
+	border: 1px solid red;
+}

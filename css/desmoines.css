@@ -1,0 +1,20 @@
+.p-1-1, .p-1-7, .p-2-2, .p-2-3, .p-2-7, .p-3-7, .p-4-8 {
+	border: 1px solid red;
+}
+
+.col {
+	padding: 0;
+}
+
+@media(max-width: 767px) {
+	.perks img {
+		width: 35px;
+		height: 35px;
+	}
+	li {
+		font-size: 0.8em;
+	}
+	.b-return {
+		font-size: 1em;
+	}
+}

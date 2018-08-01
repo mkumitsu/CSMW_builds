@@ -70,10 +70,20 @@ p {
 }
 
 @media(max-width: 767px) {
+	.ships img {
+		width: 80%;
+		height: 80%;
+	}
+	
 	.perks img {
 		width: 35px;
 		height: 35px;
 	}
+	
+	.perks p {
+		font-size: 0.75rem
+	}
+	
 	li {
 		font-size: 0.8em;
 	}
@@ -83,6 +93,5 @@ p {
 	.col-md-auto {
 		
 		text-align: center;
-		border: 1px solid black;
 	}
 }

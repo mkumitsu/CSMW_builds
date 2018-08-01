@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $(".b_usa").click(function() {
+		$("#nations").css('border-radius', '0');
         $("#usa").addClass('animated fadeIn');
 		$("#usa").css('display', 'block');
 		$("#japan").css('display', 'none');
@@ -14,6 +15,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_jap").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#japan").addClass('animated fadeIn');
 		$("#japan").css('display', 'block');
 		$("#usa").css('display', 'none');
@@ -28,6 +30,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_ussr").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#ussr").addClass('animated fadeIn');
 		$("#ussr").css('display', 'block');
 		$("#usa").css('display', 'none');
@@ -42,6 +45,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_ger").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#germany").addClass('animated fadeIn');
 		$("#germany").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -56,6 +60,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_uk").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#uk").addClass('animated fadeIn');
 		$("#uk").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -70,6 +75,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_fra").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#france").addClass('animated fadeIn');
 		$("#france").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -84,6 +90,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_ita").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#italy").addClass('animated fadeIn');
 		$("#italy").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -98,6 +105,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_panasia").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#panasia").addClass('animated fadeIn');
 		$("#panasia").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -112,6 +120,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_panam").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#panam").addClass('animated fadeIn');
 		$("#panam").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -126,6 +135,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_common").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#common").addClass('animated fadeIn');
 		$("#common").css('display', 'block');
 		$("#ussr").css('display', 'none');
@@ -140,6 +150,7 @@ $(document).ready(function() {
 		$("#poland").css('display', 'none');
     });
 	$(".b_pol").click(function() {
+		$("#nations").css('border-radius', '0');
 		$("#poland").addClass('animated fadeIn');
 		$("#poland").css('display', 'block');
 		$("#ussr").css('display', 'none');

@@ -2,6 +2,10 @@
 	border: 1px solid red;
 }
 
+.r-1-1, .r-1-5, .r-2-7, .r-3-6, .r-4-1, .r-4-2, .r-4-8 {
+	border: 1px solid red;
+}
+
 .col {
 	padding: 0;
 }
